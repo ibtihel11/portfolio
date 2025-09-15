@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-left">
+      <a href="#">PERSONAL PORTFOLIO</a>
+    </div>
+    <div class="nav-right">
+      <div class="nav-element"><i class="fa-solid fa-door-open"></i><a href="#">Welcome</a></div>
+      <div class="nav-element"><i class="fa-solid fa-user"></i><a href="#about">About</a></div>
+      <div class="nav-element"><i class="fa-solid fa-code"></i><a href="#skills">Skills</a></div>
+      <div class="nav-element"><i class="fa-solid fa-bars-progress"></i><a href="#projects">Projects</a></div>
+      <div class="nav-element"><i class="fa-solid fa-address-book"></i><a href="#contact">Contact</a></div>
+      <div>
+        <div class="theme-dropdown">
+          <button class="theme-button" id="themeButton"></button>
+          <div class="theme-options" id="themeOptions">
+            <button class="color-btn" data-color="theme-first" style="background-color: var(--first);"></button>
+            <button class="color-btn" data-color="theme-second" style="background-color: var(--second);"></button>
+            <button class="color-btn" data-color="theme-third" style="background-color: var(--third);"></button>
+          </div>
+        </div>
+      </div>
+      <div class="theme-change">
+        <button id="theme-toggle" class="theme-icon-btn">
+          <i class="fa-solid fa-sun fa-xl" id="sun-icon"></i>
+          <i class="fa-solid fa-moon fa-xl" id="moon-icon" style="display: none;"></i>
+        </button>
+      </div>
+    </nav>
+  </nav>
+
+  <section id="welcome-section">
+    <h1>
+      <br>
+      Hello, I am Ibtihel — a passionate <span style="color: var(--accent-color);">software engineering student</span><br>
+      <i class="fas fa-laptop-code"></i> Welcome to My Portfolio
+    </h1>
+  </section>
+
+  <section id="about">
+  <h3>About Me</h3>
+    <p>
+      Hi! I'm Ibtihel, a software engineering student at <strong><span style="color: var(--accent-color);">The Higher Institute Of Computer Science and Multimedia of Sfax (ISIMS)</span></strong> with a strong interest in full-stack web development.
+      I enjoy building interactive and clean web interfaces, and I'm always curious to learn new tools and frameworks.
+      I've completed several academic and personal projects using <strong><span style="color: var(--accent-color);">HTML, CSS, JavaScript, PHP, and MySQL</span></strong>, and I'm currently diving deeper into modern web technologies and expanding my skills in full-stack development..
+    </p>
+  </section>
+
+  <section id="skills">
+    <h3>Skills</h3>
+    <div class="skill-container">
+
+        <div class="skill-item">
+            <span class="icon">🌐</span>
+            <p>HTML5 & CSS3</p>
+        </div>
+
+        <div class="skill-item">
+            <span class="icon">⚙️</span>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill-item">
+            <span class="icon">🐘</span>
+            <p>PHP & MySQL</p>
+        </div>
+
+        <div class="skill-item">
+            <span class="icon">☕</span>
+            <p>Java (J2EE, Servlets)</p>
+        </div>
+
+        <div class="skill-item">
+            <span class="icon">🐍</span>
+            <p>Python</p>
+        </div>
+
+        <div class="skill-item">
+            <span class="icon">💾</span>
+            <p>SQL & PL/SQL</p>
+        </div>
+
+        <div class="skill-item">
+            <span class="icon">⚔️</span>
+            <p>Competitive Programming (C, Python, Java)</p>
+        </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h3>Projects</h3>
+    <div class="project-container">
+      <div class="project-tile">
+        <img src="img/Capture d'écran 2025-09-15 164618.png" alt="">
+        <a
+          href="https://github.com/ibtihel11/php-crud-shop"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h4>PHP CRUD Shop</h4>
+        </a>
+        <p>A simple PHP-based shop project with CRUD operations and database integration.</p>
+      </div>
+
+      <div class="project-tile">
+        <img src="img/Capture d'écran 2025-09-15 164733.png" alt="">
+        <a
+          href="https://github.com/ibtihel11/simple-web-projects"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h4>Simple Web Projects</h4>
+        </a>
+        <p>Collection of beginner-friendly front-end web projects including documentation pages.</p>
+      </div>
+
+      <div class="project-tile">
+        <img src="img/Capture d'écran 2025-09-15 171632.png" alt="">
+        <a
+          href="https://github.com/ibtihel11/servlet-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h4>Servlet CRUD</h4>
+        </a>
+        <p>Java servlet project for performing CRUD operations using JSP and JDBC.</p>
+      </div>
+
+      <div class="project-tile">
+        <img src="img/Capture d'écran 2025-09-15 164905.png" alt="">
+        <a
+          href="https://github.com/ibtihel11/CompanyDBManager"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h4>Company DB Manager</h4>
+        </a>
+        <p>A web interface for managing company databases, employees, and departments.</p>
+      </div>
+
+      <div class="project-tile">
+        <img src="img/Capture d'écran 2025-09-15 165321.png" alt="">
+        <a
+          href="https://ibtihel11.github.io/web-practice-brand-project/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h4>Brand eCommerce Website</h4>
+        </a>
+        <p>An eCommerce practice website focused on branding, layout, and responsive design.</p>
+      </div>
+
+      <div class="project-tile">
+        <img src="img/Capture d'écran 2025-09-15 165006.png" alt="">
+        <a
+          href="https://ibtihel11.github.io/projet-dweya/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h4>Parapharmacy eCommerce Website</h4>
+        </a>
+        <p>A responsive parapharmacy e-commerce website created using HTML, CSS and simple JS.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <div class="contact-container">
+      <a
+        id="profile-link"
+        href="https://github.com/ibtihel11"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="contact-div">
+          <i class="fa-brands fa-github"></i> Visit my GitHub
+        </div>
+      </a>
+      <a
+        id="profile-link"
+        href="https://www.linkedin.com/in/ibtihel-yengui-29658431b/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="contact-div">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn Page
+        </div>
+      </a>
+      <a
+        id="profile-link"
+        href="mailto:ibtihelyengui2@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="contact-div">
+          <i class="fa-solid fa-envelope"></i> Send E-mail
+        </div>
+      </a>
+      <a
+        id="profile-link"
+        href="href="tel:+21624845829"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="contact-div">
+          <i class="fa-solid fa-phone"></i> Phone Number
+        </div>
+      </a>
+    </div>
+    <div class="socials">
+      <h4>Socil Media</h4>
+      <div class="social-container">
+        <a href="https://www.facebook.com/ibtihel.yengui.1" target="_blank"><div class="social"><i class="fa-brands fa-facebook fa-xl"></i></div></a>
+        <a href="https://www.instagram.com/yengui.ibtihel/" target="_blank"><div class="social"><i class="fa-brands fa-instagram fa-xl"></i></div></a>
+        <a href="https://www.x.com/" target="_blank"><div class="social"><i class="fa-brands fa-twitter fa-xl"></i></div></a>
+      </div>
+    </div>
+    <div class="message">
+      <h4>Leave a Message</h4>
+      <textarea type="text"></textarea><br>
+      <input type="submit" value="Send">
+    </div>
+  </section>
+  <hr>
+  <footer>
+    Made with <i class="fa-solid fa-heart"></i> by Ibtihel Yengui
+  </footer>
+
+  <script>
+    //list of colors
+    const themeButton = document.getElementById('themeButton');
+    const themeOptions = document.getElementById('themeOptions');
+
+    themeButton.addEventListener('click', () => {
+      themeOptions.style.display =
+        themeOptions.style.display === 'flex' ? 'none' : 'flex';
+    });
+    
+    //click logic
+    const colorButtons = document.querySelectorAll(".color-btn");
+
+    colorButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const colorClass = btn.getAttribute("data-color");
+
+        // Remove existing theme classes
+        document.documentElement.classList.remove("theme-first", "theme-second", "theme-third");
+
+        // Add the selected theme class
+        document.documentElement.classList.add(colorClass);
+      });
+    });
+
+    //theme change
+    const toggle = document.getElementById("theme-toggle");
+    const sunIcon = document.getElementById("sun-icon");
+    const moonIcon = document.getElementById("moon-icon");
+
+    toggle.addEventListener("click", () => {
+      const currentTheme = document.documentElement.getAttribute("data-theme");
+      const newTheme = currentTheme === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", newTheme);
+
+      // Toggle icons based on new theme
+      if (newTheme === "dark") {
+        sunIcon.style.display = "none";
+        moonIcon.style.display = "inline";
+      } else {
+        sunIcon.style.display = "inline";
+        moonIcon.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
