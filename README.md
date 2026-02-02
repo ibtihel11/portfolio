@@ -26,5 +26,3 @@ This portfolio is designed to:
 - HTML  
 - CSS (Flexbox, Grid, Responsive Design)  
 - JavaScript (ES6+)  
-
-## How to View Locally
